@@ -1,0 +1,53 @@
+@charset "UTF-8";
+header {
+    background: url(background.jpg);
+}
+body {
+    background: url(mockup1.jpg) no-repeat right;
+}
+
+h1#cabecalho {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-left: 400px;
+    border:  2px solid blue;
+    color: blue;
+    box-shadow: 3px 2px 2px orange;
+
+}
+header#principal {
+    margin-top: 80px;
+    display: block;
+    position: relative;
+    margin-right: -100px;
+    width: 1359px;
+    height: 200px;
+    background-color: rgba(253, 165, 0, 0.7);
+}
+figure {
+    display: inline-block;
+    position: absolute;
+    transition: 1s;
+    margin-top: 25px;
+}
+figure#perfil {   
+    margin-left: 300px; 
+}
+figure:hover {
+    -webkit-transform: scale(1.5);
+}
+figure#html {
+    margin-left: 40px;
+    margin-top: 1PX;
+}
+figure#css {
+    margin-left: 550px;
+    margin-top: 1px;
+} 
+figure#desafio {
+    right: 300px;
+}
+figure#exercicio{
+    right: 50px;
+}

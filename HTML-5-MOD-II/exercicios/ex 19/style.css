@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(125, 233, 125);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(1, 102, 1);
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(1, 102, 1);
+    color: white;
+    padding: 3px;
+}
+
+.bsc {
+    display: inline;
+    background-color: rgb(91, 212, 91);
+    color: white;
+    padding: 3px;
+}
+.int {
+    display: inline;
+    background-color: rgb(50, 148, 50);
+    color: rgb(155, 154, 154);
+    padding: 3px;
+}
+.avc {
+    display: inline;
+    background-color: rgb(23, 114, 23);
+    color: blue;
+    padding: 3px;
+}
+
+p {
+    color: red;
+    text-align: justify;
+    text-indent: 40px;
+    font-weight: bold;
+}

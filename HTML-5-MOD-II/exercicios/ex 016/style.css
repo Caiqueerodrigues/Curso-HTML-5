@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    /*height: 100%;*/
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #7E1CFA 15%, #3A18DE, #1CA7FA);
+}
+
+main {
+    background-color: white;
+    border-radius: 20px; /*Este comando arrendonda as bordas do "container"*/
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+    /*o primeiro numero é deslocamento LATERAL, segundo deslocamenteo ABAIXO e o ultimo é DIFUSÃO*/
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #7E1CFA;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 255, 0.39);
+}
+
+h2 {
+    color: #1860DE;
+}
+
+p {
+    text-align: justify;
+}
