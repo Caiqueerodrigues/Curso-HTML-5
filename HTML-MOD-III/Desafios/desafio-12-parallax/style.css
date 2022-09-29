@@ -4,14 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 body {
-    margin: 0px;
+    margin: auto;
     font-family: sriracha;
     text-indent: 40px;
 }
 header {
     background-color: black;
     height: 200px;
-
+    max-width: 100%;
 }
 header > h1 {
     display: block;
@@ -28,7 +28,7 @@ header > p {
     text-align: center;
     color: white;
     margin: -20px auto;
-    padding: 10px;
+    padding: 15px;
 }
 a#titulo {
     font-weight: bold;
@@ -43,13 +43,56 @@ a#titulo:hover {
 }
 
 main {
-    
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+article#um {
+    padding: 60px 0px;
+}
+
+section#dois {
+    padding: 400px;
+    position: relative;
+    background: black url(imagens/background001.jpg) no-repeat fixed;
+    background-size: cover;
+}
+article#dois {
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    background: rgba(128, 128, 128, 0.3);
+}
+
+article#tres {
+    padding: 100px 0px ;
+}
+
+section#cinco {
+    padding: 500px 400px;
+    position: relative;
+    background: black url(imagens/background002.jpg) center bottom no-repeat fixed;
+    background-size: cover;
+}
+article#cinco {
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    background: rgba(128, 128, 128, 0.3);
 }
 
 footer {
+    display: block;
     text-align: center;
     margin: auto;
     background-color: black;
+    width: 100%;
 }
 footer > p {
     margin: auto;
