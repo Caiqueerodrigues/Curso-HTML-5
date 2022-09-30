@@ -6,17 +6,16 @@
 body {
     margin: auto;
     font-family: sriracha;
-    text-indent: 40px;
 }
 header {
     background-color: black;
-    height: 200px;
+    height: 300px;
     max-width: 100%;
 }
 header > h1 {
     display: block;
     font-family: passion one;
-    font-size: 4em;
+    font-size: 8em;
     text-align: center;
     color: white;
     margin: auto;
@@ -28,7 +27,7 @@ header > p {
     text-align: center;
     color: white;
     margin: -20px auto;
-    padding: 15px;
+    padding: 25px;
 }
 a#titulo {
     font-weight: bold;
@@ -39,41 +38,40 @@ a#titulo:hover {
     color: red;
     background-color: lightgray;
     padding: 3px;
-    transition: 1s;
+    border-radius: 10px;
+    transition: .5s;
 }
 
 main {
     background-color: white;
-    max-width: 800px;
-    margin: auto;
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
-article#um {
-    padding: 60px 0px;
+#normal {
+    
+}
+
+p {
+    padding-left: 40px;
 }
 
 section#dois {
-    padding: 400px;
+    padding: 600px;
     position: relative;
     background: black url(imagens/background001.jpg) no-repeat fixed;
     background-size: cover;
 }
 article#dois {
-    width: 50%;
+    width: 40%;
     color: white;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 0%;
     background: rgba(128, 128, 128, 0.3);
 }
 
-article#tres {
-    padding: 100px 0px ;
-}
-
 section#cinco {
-    padding: 500px 400px;
+    padding: 400px;
     position: relative;
     background: black url(imagens/background002.jpg) center bottom no-repeat fixed;
     background-size: cover;
@@ -106,4 +104,6 @@ footer > p > a {
 footer > p > a:hover {
     background-color: white;
     padding: 4px;
+    border-radius: 10px;
+    transition: .5s;
 }
