@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../../_icon/favicon.ico" type="image/x-icon">
+        <style>
+            body {
+                text-align: center;
+                background-color: black;
+                color: red;
+            }
+        </style>
+        <title>Formulários</title>
+    </head>
+    <body>
+        <h1>Elemento OutPut em Formulários HTML</h1>
+        <form action="cadastro.php">
+            <p>
+                <label for="inum1">Numero 1: </label>
+                    <input type="number" name="nnum1" id="inum1" min="1" max="50" required oninput="isoma.innerHTML = Number (inum1.value) + Number(inum2.value)">
+            </p>
+            <p>
+                <label for="inum2">Numero 2: </label>
+                    <input type="number" name="nnum2" id="inum2" min="1" max="50" required oninput="isoma.innerHTML = Number (inum1.value) + Number(inum2.value)">
+            </p>
+            <p>
+                <output name="nsoma" id="isoma">Soma: </output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </body>
+</html>

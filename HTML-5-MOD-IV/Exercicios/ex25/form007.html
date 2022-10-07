@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../../_icon/favicon-32x32.png" type="image/x-icon">
+        <style>
+            body {
+                background-color: black;
+                color: red;
+                text-align: center;
+            }
+        </style>
+        <title>Formulários</title>
+    </head>
+    <body>
+        <h1>Aprendendo sobre SELECT, DATALIST e TEXT AREA</h1>
+        <form action="cadastro">
+            <h2>SELECT</h2>
+            <label for="iest">Estado:</label>
+            <select name="nest" id="iest">
+                <option value="" selected>-------- Escolha --------</option>
+                <optgroup label="Região NORTE">
+                    <option value="AC">Acre</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="RR">Roraima</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="PA">Pará</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="AP">Amapá</option>
+                </optgroup>
+                <optgroup label="Região NORDESTE">
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piauí</option>
+                    <option value="CE">Ceará</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="BA">Bahia</option>
+                </optgroup>
+                <optgroup label="Região CENTRO-OESTE">                    
+                    <option value="MT">Mato Grosso</option>
+                    <option value="GO">Goias</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+                <optgroup label="Região SUDESTE">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espírito Santo</option>
+                </optgroup>
+                <optgroup label="Região SUL">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select><br>
+            <h2>DATALIST</h2>
+                <label for="iprof">
+                    <input type="text" name="nprof" id="iprof" list="prof"></label>
+                        <datalist id="prof">
+                            <option>Vigilante</option>
+                            <option>Médico</option>
+                            <option>Desenvolvedor</option>
+                        </datalist>
+            <h2>TEXT AREA</h2>
+                <label for="imensg">
+                    <p>Mensagem</p>
+                    <textarea name="nmensg" id="imensg" cols="90" rows="10" placeholder="Sua Mensagem para Nós"></textarea>
+                </label>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../../_icon/favicon-32x32.png" type="image/x-icon">
+        <style>
+            body {
+                background-color: black;
+                color: red;
+                text-align: center;
+            }
+        </style>
+        <title>Formulários</title>
+    </head>
+    <body>
+        <h1>Teste de Check Box e Radios</h1>
+        <form action="cadastro.php">
+            <fieldset>
+                <legend>Check-Box</legend>
+                <p>
+                    <label for="ifut">
+                        <input type="checkbox" name="nfut" id="ifut">Futebol</label><br>
+                    <label for="ivol">
+                        <input type="checkbox" name="nvol" id="ivol">Voleibol</label><br>
+                    <label for="ihan">
+                        <input type="checkbox" name="nhan" id="ihan">Handbol</label><br>                  
+                    <label for="ibeat">
+                        <input type="checkbox" name="nbeat" id="ibeat">BeatchTenis</label>
+                </p>
+            <fieldset>
+                <legend>Sexo</legend>
+                <label for="imasc">
+                    <input type="radio" name="nsex" id="imasc" checked value="M">Masculino <br></label>
+                <label for="ifem">
+                    <input type="radio" name="nsex" id="ifem" value="F">Feminino</label>
+            </fieldset>
+            </fieldset>
+            <fieldset>
+                <legend>Radios</legend>
+                <p>
+
+                </p>
+            </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>

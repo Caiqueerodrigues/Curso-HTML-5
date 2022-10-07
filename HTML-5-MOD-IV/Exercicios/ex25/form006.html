@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../../_icon/favicon-32x32.png" type="image/x-icon">
+        <style>
+            body {
+                background-color: black;
+                color: red;
+                text-align: center;
+            }
+        </style>
+        <title>Formulários</title>
+    </head>
+    <body>
+        <h1>Aprendendo sobre CORES RANGE e FILE</h1>
+        <form action="cadastro.php" method="post">
+            <fieldset>
+                <legend>Cores</legend>
+                <p>
+                    <label for="icor">Cor</label>
+                    <input type="color" name="ncor" id="icor" value="#0000ff">
+                </p>
+            </fieldset>
+            <fieldset>
+            <legend>Range</legend>
+            <p>
+                <label for="iniv">Nível de Satisfação</label>
+                <input type="range" name="nniv" id="iniv" min="1" max="10">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>File</legend> 
+            <p>
+                <label for="ifile">Foto de Perfil</label>
+                <input type="file" name="nfile" id="ifile">
+            </p>
+        </fieldset>
+        </form>
+    </body>
+</html>
