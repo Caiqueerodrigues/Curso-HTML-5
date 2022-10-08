@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+Body {
+    background-color: lightblue;
+    color: black;
+    text-align: justify;
+}
+h2,h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+header {
+    background-color: lightblue;
+    color: rgb(0, 0, 206);
+    font-weight: bold;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+}
+menu {
+    background-color: aqua;
+    list-style-type: none;   
+}
+
+article {
+    max-width: 600px;
+    margin: auto;
+    text-indent: 40px;
+}
