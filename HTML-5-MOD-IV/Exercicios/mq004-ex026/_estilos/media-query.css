@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*Todas as demais QUERIES*/
+
+/*Impressões*/
+@media print {
+    body {
+        background-image: url(../_imagens/back-print.jpg);/*Desnecessário, pq não imprimi BACKGROUND*/
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        box-shadow: none;
+    }
+
+    main {
+        border: 1px solid black;
+        box-shadow: 3px 3px 3px gray;
+    }
+    main::after {
+        content: 'Essa impressão tem direitos de recrição de Caique Rodrigues';
+    }
+
+    #cel{display: none;}
+    #tab {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+    #imp {display: block;}
+}
+
+/*Tablets*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        background-image: url(../_imagens/back-tablet.jpg);
+    }
+    #cel{display: none;}
+    #tab {display: block;}
+    #pc {display: none;}
+    #tv {display: none;}
+    #imp {display: none;}
+}
+
+/*Desktop*/
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background-image: url(../_imagens/back-pc.jpg);
+    }
+    #cel{display: none;}
+    #tab {display: none;}
+    #pc {display: block;}
+    #tv {display: none;}
+    #imp {display: none;}
+}
+
+/*Grandes Telas*/
+@media screen and (min-width:1200px) {
+    body {
+        background-image: url(../_imagens/back-tv.jpg);
+    }
+    #cel{display: none;}
+    #tab {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
+    #imp {display: none;}
+}
