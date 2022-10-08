@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+body {
+background: #233eff url(../_imagens/cev-landscape.jpg)  left bottom no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    text-shadow: 1px 2px 2px black;
+    padding: 10px;
+}
